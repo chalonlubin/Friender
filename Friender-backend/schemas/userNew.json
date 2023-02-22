@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "properties": {
+      "username": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 30
+      },
+      "password": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 20
+      },
+      "interests": {
+        "type": "string",
+        "maxLength": 300
+      },
+      "hobbies": {
+        "type": "string",
+        "maxLength": 300
+      },
+      "image": {
+        "type": "string"
+      },
+      "location": {
+        "type": "integer",
+        "pattern": "[0-9]{5}(-[0-9]{4})?"
+      },
+      "radius": {
+        "type": "integer",
+        "maximum": 600
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "username",
+      "password",
+      "image",
+      "location",
+      "radius"
+    ]
+}
