@@ -19,7 +19,8 @@ Node.js | Express.js | React | Bootstrap | AWS S3
 
 Build in a 3.5 day sprint w/ @amaesanchez. Completed goal of wanting to try AWS S3 buckets to upload user photos.
 
-## TODO
+## To Do
+
 - add websocket chat interface so users may message one another
 - tidy UX / UI
 - fix bug with swiping where user cannot like in rare occurances
