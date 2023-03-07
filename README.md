@@ -4,26 +4,36 @@ Tinder like full-stack application.
 
 Deployed at: https://chum-bucket.surge.sh/
 
+## To run 
+
+
+```
+`npm install`
+
+`npm start`
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
+```
+
 ## Features 
 
+- RESTful API, containing database models with backend data validation via JSON schemas.
 - User registration and authorization with JWT
 - Bcyrpt password hashing
-- Swipe functionality that relays potential matches to render, based on user radius
-- AWS S3 Buckets utilized for photo storage, linked to DB via path.
+
 
 ## Tech
 
-Node.js | Express.js | React | Bootstrap | AWS S3
+Node.js | Express.js | React | Bootstrap 
 
 ## Details
 
-Build in a 3.5 day sprint w/ @amaesanchez. Completed goal of wanting to try AWS S3 buckets to upload user photos.
+Build in a 3.5 day sprint w/ @petrachoir
 
 ## To Do
 
-- add websocket chat interface so users may message one another
 - tidy UX / UI
-- fix bug with swiping where user cannot like in rare occurances
-- fix bug with user login failing if pasword is incorrect
+- add pagination
+- add application feature / tables
 - add more tests 
 
